@@ -1,0 +1,8 @@
+[package]
+name = "child"
+version = "0.1.0"
+authors = ["Georg Semmler <georg_semmler_05@web.de>"]
+edition = "2018"
+
+[dependencies]
+parent = {path = "../parent"}
